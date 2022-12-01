@@ -4,6 +4,7 @@ FROM php:8.0-apache
 RUN apt update \
     && apt -y upgrade \
     && apt install -y \
+        htop \ 
         libfreetype6-dev \
         libjpeg62-turbo-dev \
         libpng-dev \
